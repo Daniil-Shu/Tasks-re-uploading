@@ -3,6 +3,29 @@
 
 using namespace std;
 
+/**
+ * \brief Функция для расчета a
+ * \param x Параметр x
+ * \param y Параметр y
+ * \param z Параметр z
+ * \return
+ */
+double GetA(const double x, const double y, const double z);
+/**
+ * \brief Функция для расчета b
+ * \param x Параметр x
+ * \param y Параметр y
+ * \param z Параметр z
+ * \return
+ */
+double GetB(const double x, const double y, const double z);
+
+
+/**
+ * \brief Точка входа в программу
+ * \return Возвращает нуль, в случае успеха
+ */
+
 int main()
 {
     const auto x = 0.2;
@@ -19,3 +42,4 @@ int main()
 
     cout << b << endl;
 }
+
